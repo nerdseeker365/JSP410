@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ELProj24-ELFunction">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="ELProj24-ELFunction"/>
+        <property name="java-output-path" value="/ELProj24-ELFunction/build/classes"/>
+    </wb-module>
+</project-modules>

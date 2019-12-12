@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>OfflineCAPTCHAApp</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+     <servlet-name>demo</servlet-name>
+     <servlet-class> nl.captcha.servlet.StickyCaptchaServlet</servlet-class>
+       <init-param>
+             <param-name>captcha-width</param-name>
+             <param-value>400</param-value>
+         </init-param>
+         <init-param>
+             <param-name>captcha-height</param-name>
+             <param-value>200</param-value>
+         </init-param>
+         <init-param>
+             <param-name>ttl</param-name>
+             <param-value>2000</param-value>
+         </init-param>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>demo</servlet-name>
+      <url-pattern>/sticky</url-pattern>
+  </servlet-mapping>
+</web-app>

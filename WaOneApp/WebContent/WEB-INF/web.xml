@@ -1,0 +1,6 @@
+<web-app >
+  <display-name>WaOneApp</display-name>
+  <welcome-file-list>
+    <welcome-file>input.html</welcome-file>
+  </welcome-file-list>
+</web-app>

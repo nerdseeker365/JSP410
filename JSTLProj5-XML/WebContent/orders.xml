@@ -1,0 +1,19 @@
+
+<orders>
+   <order>
+     <name>table</name>
+     <price>2000</price>
+   </order>
+   <order>
+     <name>chair</name>
+     <price>500</price>
+   </order>
+   <order>
+     <name>book</name>
+     <price>100</price>
+   </order>
+   <order>
+     <name>ReadingLamp</name>
+     <price>400</price>
+   </order>
+</orders>

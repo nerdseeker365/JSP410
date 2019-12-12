@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="JspApp10-GlobalErroPages">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="JspApp10-GlobalErroPages"/>
+        <property name="java-output-path" value="/JspApp10-GlobalErroPages/build/classes"/>
+    </wb-module>
+</project-modules>

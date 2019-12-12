@@ -1,0 +1,8 @@
+SQL> desc  student;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ SNO                                       NOT NULL NUMBER(5)
+ SNAME                                              VARCHAR2(20)
+ SADD                                               VARCHAR2(20)
+ SQL>create sequence  sno_seq start with 1 increment by 1;
+ 
